@@ -5,7 +5,6 @@ import http from "http";
 import { corsWhitelist } from "./config";
 import { Database } from "./models/instance";
 import { ProxyRouter as ProxyRouterPublic } from "./routes";
-import swaggerUI from "swagger-ui-express";
 
 class App {
   private app: Application;
